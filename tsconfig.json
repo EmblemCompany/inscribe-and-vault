@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "module": "esnext",
+    "target": "esnext",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "alwaysStrict": false,
+    "strictNullChecks": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "outDir": "types",
+    "removeComments": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types/**/*.d.ts"
+    ],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "jsx": "preserve",
+    "useDefineForClassFields": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.vue",
+    "**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "types",
+    "coverage"
+  ]
+}

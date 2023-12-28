@@ -1,0 +1,1 @@
+type VaultStatuses = 'claimed' | 'unclaimed'
